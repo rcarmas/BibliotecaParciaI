@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\common\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\common\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\common\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\common\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\common\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\common\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\integrationlayer\\factories\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\integrationlayer\\factories\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\integrationlayer\\factories\\iservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\integrationlayer\\factories\\iservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\presentationlayer\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\presentationlayer\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\presentationlayer\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\presentationlayer\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\presentationlayer\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\presentationlayer\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\integrationlayer\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\integrationlayer\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\integrationlayer\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\integrationlayer\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\persistencelayer\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\persistencelayer\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\persistencelayer\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\persistencelayer\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\persistencelayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\persistencelayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\persistencelayer\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\persistencelayer\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\anahisariah\\source\\repos\\librarymanagementsystem\\librarymanagementsystem\\businesslayer\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213EA668-BF74-48D7-9037-8FC835F90C25}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\businesslayer\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\ITransactionService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\ITransactionService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:40:16.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Common\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Common\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:40:01.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Common\\DTOs\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Common\\DTOs\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:39:57.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PresentationLayer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PresentationLayer\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:59:13.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PresentationLayer\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PresentationLayer\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:24:56.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IServiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Factories\\IServiceFactory.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IntegrationLayer\\Factories\\IServiceFactory.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Factories\\IServiceFactory.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\IntegrationLayer\\Factories\\IServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:30:38.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T01:06:56.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\IUserService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:02:41.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PresentationLayer\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PresentationLayer\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T00:47:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\TransactionService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\TransactionService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:37:12.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PresentationLayer\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PresentationLayer\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PresentationLayer\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T22:45:03.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:38:23.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\TransactionDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Common\\DTOs\\TransactionDTO.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Common\\DTOs\\TransactionDTO.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Common\\DTOs\\TransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:03:46.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:38:22.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Factories\\ServiceFactory.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IntegrationLayer\\Factories\\ServiceFactory.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Factories\\ServiceFactory.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\IntegrationLayer\\Factories\\ServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:30:42.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:38:21.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:38:19.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:25:06.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Services\\LibraryService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IntegrationLayer\\Services\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Services\\LibraryService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\IntegrationLayer\\Services\\LibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T01:36:02.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:13:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\appsettings.json",
+              "RelativeToolTip": "LibraryManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T03:08:31.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T03:13:04.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PersistenceLayer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\User.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PersistenceLayer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:56:09.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PersistenceLayer\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\LibraryContext.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PersistenceLayer\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:09:28.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PersistenceLayer\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PersistenceLayer\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:29:44.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\PersistenceLayer\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\PersistenceLayer\\Models\\Transaction.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\PersistenceLayer\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:29:48.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ILibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Services\\ILibraryService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IntegrationLayer\\Services\\ILibraryService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\IntegrationLayer\\Services\\ILibraryService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\IntegrationLayer\\Services\\ILibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:29:14.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:49:15.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BusinessLayer\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\AnahiSariah\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\BusinessLayer\\Services\\IBookService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BusinessLayer\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:55:55.691Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
