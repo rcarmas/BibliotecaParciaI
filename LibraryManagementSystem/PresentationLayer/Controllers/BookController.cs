@@ -26,7 +26,8 @@ namespace LibraryManagementSystem.Controllers
         [HttpGet("Create")]
         public IActionResult Create()
         {
-            return View();  // Devuelve la vista Create.cshtml
+            var book = new BookDTO(); 
+            return View(book);  
         }
 
         // Acción para crear un libro (POST)

@@ -1,52 +1,45 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using BusinessLayer.Services;
+using LibraryManagementSystem.Services.Soap;
 using Common.DTOs;
+using PersistenceLayer.Models;
 
 namespace LibraryManagementSystem.Controllers
 {
-    [ApiController]
-    [Route("api/users")]
-    public class UserController : ControllerBase
+   
+    public class UserController : Controller
     {
-        private readonly IUserService _userService;
+        private readonly ILibraryService _libraryService;
 
-        public UserController(IUserService userService)
+        public UserController(ILibraryService libraryService)
         {
-            _userService = userService;
+            _libraryService = libraryService;
         }
 
-        // Listar todos los usuarios
-        [HttpGet]
-        public IActionResult GetAllUsers()
+        // Vista para crear un nuevo usuario
+        public IActionResult CreateUser()
         {
-            var users = _userService.GetAllUsers();
-            return Ok(users);
+            var userDTO = new UserDTO();
+            return View(userDTO);
         }
 
-        // Actualizar la información de un usuario
-        [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, UserDTO user)
+        // Acción para registrar un nuevo usuario
+        [HttpPost]
+        public IActionResult RegisterUser(UserDTO userDTO)
         {
-            var result = _userService.UpdateUser(id, user);  // Ahora result es un string
-            if (result == "Usuario no encontrado.")
-                return NotFound(result);  // Si el mensaje es "Usuario no encontrado", responde con NotFound
-
-            return Ok(result);  // De lo contrario, responde con el mensaje de éxito
+            Console.WriteLine($"Nombre: {userDTO.Name}, Email: {userDTO.Email}, Tipo de Usuario: {userDTO.UserType}");
+            if (ModelState.IsValid)
+            {
+                var result = _libraryService.RegistrarUsuario(userDTO.Name, userDTO.Email, userDTO.UserType);
+                ViewBag.Message = result;
+                return View("CreateUser", userDTO);
+            }
+            else
+            {
+                ViewBag.Message = "El formulario contiene errores, por favor verifica los campos.";
+                return View("CreateUser", userDTO);
+            }
         }
 
-
-
-        //Reporte de historial de prestamos
-
-        [HttpGet("{id}/prestamos")]
-        public IActionResult GetLoanHistory(int id)
-        {
-            var history = _userService.GetLoanHistory(id);
-            if (history == null || !history.Any())
-                return NotFound("No se encontró historial de préstamos para este usuario.");
-
-            return Ok(history);
-        }
 
     }
 }

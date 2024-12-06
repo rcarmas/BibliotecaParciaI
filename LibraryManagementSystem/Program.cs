@@ -29,6 +29,10 @@ var app = builder.Build();
 // Habilitar el uso de vistas y controladores MVC
 app.UseRouting();
 
+app.MapControllerRoute(
+    name: "user",
+    pattern: "{controller=User}/{action=CreateUser}/{id?}");
+
 // Configurar el endpoint SOAP
 app.UseSoapEndpoint<ILibraryService>("/LibraryService.svc", new SoapEncoderOptions
 {
@@ -37,8 +41,8 @@ app.UseSoapEndpoint<ILibraryService>("/LibraryService.svc", new SoapEncoderOptio
 
 // Habilitar el enrutamiento para las vistas
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Book}/{action=Index}/{id?}");  // Redirige por defecto al controlador Book y su acción Index
+    name: "book",
+    pattern: "Book/{action=Index}/{id?}");  // Específicamente para Book
 
 // Mapear los controladores REST
 app.MapControllers();
