@@ -13,7 +13,7 @@ namespace BusinessLayer.Services
             _context = context;
         }
 
-        public string RegisterLoan(int userId, int bookId, DateTime borrowDate, DateTime? returnDate)
+        public string RegisterLoan(int userId, string bookId, DateTime borrowDate, DateTime? returnDate)
         {
             var book = _context.books.Find(bookId);
             var user = _context.users.Find(userId);

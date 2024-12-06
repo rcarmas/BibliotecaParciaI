@@ -4,9 +4,12 @@ namespace BusinessLayer.Services
 {
     public interface IBookService
     {
-        BookDTO GetBookById(int id);
+        BookDTO GetBookById(string id);
         List<BookDTO> GetBooksByCategory(string category);
         List<BookDTO> GetAllBooks();
-        bool UpdateBook(int id, BookDTO bookDto);
+        bool CreateBook(BookDTO bookDto);
+        bool UpdateBook(string id, BookDTO bookDto);
+        bool DeleteBook(string id);
+
     }
 }

@@ -8,7 +8,7 @@ namespace LibraryManagementSystem.Services.Soap
     public interface ILibraryService
     {
         [OperationContract]
-        string RegistrarPrestamo(int userId, int bookId, DateTime borrowDate, DateTime returnDate);
+        string RegistrarPrestamo(int userId, string bookId, DateTime borrowDate, DateTime returnDate);
 
         [OperationContract]
         string RegistrarDevolucion(int transactionId);

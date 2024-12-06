@@ -23,14 +23,22 @@ builder.Services.AddScoped<ITransactionService, TransactionService>();
 // Agregar controladores (para los servicios REST)
 builder.Services.AddControllers();
 
+// Configuración para el enrutamiento de vistas
 var app = builder.Build();
 
-// Configuración del endpoint SOAP con SoapCore (no es necesario un SoapEncoderOptions explícito)
+// Habilitar el uso de vistas y controladores MVC
+app.UseRouting();
+
+// Configurar el endpoint SOAP
 app.UseSoapEndpoint<ILibraryService>("/LibraryService.svc", new SoapEncoderOptions
 {
     // SoapCore maneja la serialización automáticamente sin necesidad de especificar el Serializer.
 });
 
+// Habilitar el enrutamiento para las vistas
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Book}/{action=Index}/{id?}");  // Redirige por defecto al controlador Book y su acción Index
 
 // Mapear los controladores REST
 app.MapControllers();

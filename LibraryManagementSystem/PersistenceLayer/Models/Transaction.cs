@@ -4,7 +4,7 @@
     {
         public int id { get; set; }
         public int userid { get; set; }
-        public int bookid { get; set; }
+        public string bookid { get; set; }
         public DateTime? borrowdate { get; set; }  // Asegúrate de que sea nullable
         public DateTime? returndate { get; set; }  // Asegúrate de que sea nullable
         public string status { get; set; }

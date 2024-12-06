@@ -15,7 +15,7 @@ namespace LibraryManagementSystem.Services.Soap
         }
 
         // Registrar Préstamo de Libro
-        public string RegistrarPrestamo(int userId, int bookId, DateTime borrowDate, DateTime returnDate)
+        public string RegistrarPrestamo(int userId, string bookId, DateTime borrowDate, DateTime returnDate)
         {
             var book = _context.books.Find(bookId);
             var user = _context.users.Find(userId);

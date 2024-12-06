@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Libros";
+}
+
+<h1>Lista de Libros</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Category</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Book", new { id = book.Id })" class="btn btn-primary">Editar</a>
+                    <a href="@Url.Action("Delete", "Book", new { id = book.Id })" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "Book")" class="btn btn-success">Agregar Libro</a>

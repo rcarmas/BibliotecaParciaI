@@ -4,9 +4,8 @@ using Common.DTOs;
 
 namespace LibraryManagementSystem.Controllers
 {
-    [ApiController]
-    [Route("api/books")]
-    public class BookController : ControllerBase
+    [Route("Book")]
+    public class BookController : Controller
     {
         private readonly IBookService _bookService;
 
@@ -15,39 +14,85 @@ namespace LibraryManagementSystem.Controllers
             _bookService = bookService;
         }
 
-        // Buscar libro por ID
-        [HttpGet("{id}")]
-        public IActionResult GetBookById(int id)
-        {
-            var book = _bookService.GetBookById(id);
-            return book != null ? Ok(book) : NotFound("Libro no encontrado.");
-        }
-
-        // Filtrar libros por categoría
-        [HttpGet("filter")]
-        public IActionResult GetBooksByCategory(string category)
-        {
-            var books = _bookService.GetBooksByCategory(category);
-            return Ok(books);
-        }
-
-        // Listar todos los libros
+        // Acción para listar todos los libros
         [HttpGet]
-        public IActionResult GetAllBooks()
+        public IActionResult Index()
         {
             var books = _bookService.GetAllBooks();
-            return Ok(books);
+            return View(books);  // Devuelve la vista Index.cshtml con la lista de libros
         }
 
-        // Actualizar información de un libro
-        [HttpPut("{id}")]
-        public IActionResult UpdateBook(int id, [FromBody] BookDTO bookDto)
+        // Acción para mostrar el formulario de creación de libro
+        [HttpGet("Create")]
+        public IActionResult Create()
         {
-            var result = _bookService.UpdateBook(id, bookDto);
-            if (!result)
-                return NotFound("Libro no encontrado.");
+            return View();  // Devuelve la vista Create.cshtml
+        }
 
-            return Ok("Libro actualizado exitosamente.");
+        // Acción para crear un libro (POST)
+        [HttpPost("Create")]
+        public IActionResult Create(BookDTO bookDto)
+        {
+            if (ModelState.IsValid)
+            {
+                // Generar un UUID para el id
+                var uuid = Guid.NewGuid().ToString();
+                bookDto.Id = uuid;
+
+                var result = _bookService.CreateBook(bookDto);
+                if (!result)
+                {
+                    return BadRequest("No se pudo crear el libro.");
+                }
+
+                return RedirectToAction("Index");  // Redirige a la lista de libros después de crear
+            }
+
+            return View(bookDto);  // Si hay errores, vuelve a la vista con el libro ingresado
+        }
+
+        // Acción para mostrar el formulario de edición de libro
+        [HttpGet("Edit/{id}")]
+        public IActionResult Edit(string id)
+        {
+            var book = _bookService.GetBookById(id);
+            if (book == null)
+            {
+                return NotFound("Libro no encontrado.");
+            }
+
+            return View(book);  // Devuelve la vista Edit.cshtml con los detalles del libro
+        }
+
+        // Acción para actualizar un libro (POST)
+        [HttpPost("Edit/{id}")]
+        public IActionResult Edit(string id, BookDTO bookDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _bookService.UpdateBook(id, bookDto);
+                if (!result)
+                {
+                    return NotFound("Libro no encontrado.");
+                }
+
+                return RedirectToAction("Index");  // Redirige a la lista de libros después de editar
+            }
+
+            return View(bookDto);  // Si hay errores, vuelve a la vista con el libro modificado
+        }
+
+        // Acción para eliminar un libro
+        [HttpGet("Delete/{id}")]
+        public IActionResult Delete(string id)
+        {
+            var result = _bookService.DeleteBook(id);
+            if (!result)
+            {
+                return NotFound("Libro no encontrado.");
+            }
+
+            return RedirectToAction(nameof(Index));  // Redirige a la lista de libros después de eliminar
         }
     }
 }
