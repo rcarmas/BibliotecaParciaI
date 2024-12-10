@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h2>Gestión de Usuarios</h2>
+    <a href="@Url.Action("Dashboard", "Admin")" class="btn btn-secondary">Volver al Dashboard</a>
+</div>
+
+@* <div class="d-flex justify-content-between align-items-center">
+    <a href="/User/CreateUser" class="text-decoration-none">Agregar Usuario</a>
+</div> *@
+
+<form method="get" action="@Url.Action("ManageUsers", "Admin")" class="mb-3 d-flex justify-content-center">
+    <div class="input-group w-auto">
+        <input type="text" name="searchTerm" class="form-control" placeholder="Buscar usuario por nombre" value="@ViewData["SearchTerm"]" />
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+</form>
+
+<!-- Tabla de usuarios -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Tipo de Usuario</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td style="width: 20%;">@user.Name</td>
+                <td style="width: 25%;">@user.Email</td>
+                <td style="width: 15%;">@user.UserType</td>
+                <td style="width: 10%;">@user.Status</td>
+                <td style="width: 30%;">
+                    <a href="@Url.Action("ActivateUser", "Admin", new { userId = user.Id })" class="btn btn-success">Activar</a>
+                    <a href="@Url.Action("SuspendUser", "Admin", new { userId = user.Id })" class="btn btn-warning">Suspender</a>
+                    <a href="@Url.Action("EditUser", "Admin", new { userId = user.Id })" class="btn btn-primary">Editar</a>
+                    <a href="@Url.Action("DeleteUser", "Admin", new { userId = user.Id })" class="btn btn-danger" onclick="return confirm('¿Estás seguro de que deseas eliminar a este usuario?');">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

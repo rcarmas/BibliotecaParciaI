@@ -29,7 +29,11 @@
     </div>
     <div class="form-group">
         <label for="Availability">Disponibilidad</label>
-        <input type="checkbox" id="Availability" name="Availability" class="form-check-input" @(Model.Availability ? "checked" : "") />
+        <select id="Availability" name="Availability" class="form-control" required>
+            <option value="Disponible" @(Model.Availability == "Disponible" ? "selected" : "")>Disponible</option>
+            <option value="No disponible" @(Model.Availability == "No disponible" ? "selected" : "")>No disponible</option>
+        </select>
     </div>
+    <p></p>
     <button type="submit" class="btn btn-primary">Actualizar</button>
 </form>

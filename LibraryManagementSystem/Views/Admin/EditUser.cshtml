@@ -1,0 +1,32 @@
+﻿@model Common.DTOs.UserDTO;
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>Editar Usuario</h2>
+
+<form method="post" action="@Url.Action("EditUser", "Admin")">
+    <input type="hidden" name="userId" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" name="name" value="@Model.Name" required />
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" value="@Model.Email" required />
+    </div>
+    <div class="form-group">
+        <label for="userType">Tipo de Usuario</label>
+        <select class="form-control" id="userType" name="userType">
+            <option value="Admin" @(Model.UserType == "Admin" ? "selected" : "")>Admin</option>
+            <option value="User" @(Model.UserType == "User" ? "selected" : "")>User</option>
+        </select>
+    </div>
+    <div class="form-group" hidden>
+        <label for="status">Estado</label>
+        <input type="text" class="form-control" id="status" name="status" value="@Model.Status" />
+    </div>
+    <p></p>
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

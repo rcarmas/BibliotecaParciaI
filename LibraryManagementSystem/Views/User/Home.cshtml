@@ -1,0 +1,55 @@
+﻿@model List<Common.DTOs.TransactionDTO> 
+
+@{
+    ViewData["Title"] = "Mis Préstamos";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand" href="#">CAJ SISTEMA BIBLIOTECARIO</a>
+            <span class="navbar-text text-light ms-2">
+                Bienvenido!
+            </span>
+        </div>
+        <a href="@Url.Action("Index", "Login")" class="btn btn-danger">Cerrar Sesión</a>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2>Mis Libros</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Título del Libro</th>
+                    <th>Fecha de Préstamo</th>
+                    <th>Fecha de Devolución</th>
+                    <th>Estado</th>
+                    <th>Multa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model)
+                {
+                    <tr>
+                        <td>@transaction.BookTitle</td>
+                        <td>@transaction.BorrowDate.ToShortDateString()</td>
+                        <td>@(transaction.ReturnDate.HasValue ? transaction.ReturnDate.Value.ToShortDateString() : "No Devuelto")</td>
+                        <td>@transaction.Status</td>
+                        <td>@(transaction.Fine.HasValue ? transaction.Fine.Value.ToString("C") : "No tiene multa")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No tienes libros prestados actualmente.
+        </div>
+    }
+</div>

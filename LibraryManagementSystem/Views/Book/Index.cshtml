@@ -5,7 +5,17 @@
     Layout = "~/Views/_Layout.cshtml";
 }
 
-<h1>Lista de Libros</h1>
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Lista de Libros</h1>
+    <a href="@Url.Action("Dashboard", "Admin")" class="btn btn-secondary">Volver al Dashboard</a>
+</div>
+
+<form method="get" action="@Url.Action("Index", "Book")" class="mb-3 d-flex justify-content-center">
+    <div class="input-group w-auto">
+        <input type="text" name="searchTerm" class="form-control" placeholder="Buscar por título o categoría" value="@ViewData["SearchTerm"]" />
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+</form>
 
 <table class="table">
     <thead>
@@ -13,6 +23,8 @@
             <th>Título</th>
             <th>Autor</th>
             <th>Categoría</th>
+            <th>Localización</th>
+            <th>Disponibilidad</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -23,6 +35,8 @@
                 <td>@book.Title</td>
                 <td>@book.Author</td>
                 <td>@book.Category</td>
+                <td>@book.Location</td>
+                <td>@book.Availability</td>
                 <td>
                     <a href="@Url.Action("Edit", "Book", new { id = book.Id })" class="btn btn-primary">Editar</a>
                     <a href="@Url.Action("Delete", "Book", new { id = book.Id })" class="btn btn-danger">Eliminar</a>

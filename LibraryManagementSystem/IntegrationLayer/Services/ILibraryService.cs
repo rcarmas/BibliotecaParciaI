@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
+using Common.DTOs;
 using SoapCore;
 
 namespace LibraryManagementSystem.Services.Soap
@@ -8,21 +9,25 @@ namespace LibraryManagementSystem.Services.Soap
     public interface ILibraryService
     {
         [OperationContract]
-        string RegistrarPrestamo(int userId, string bookId, DateTime borrowDate, DateTime returnDate);
+        
+        string RegistrarUsuario(string name, string email, string status,string userType, string password);
+        [OperationContract]
+        UserDTO ValidateUser(string email, string password);
 
         [OperationContract]
-        string RegistrarDevolucion(int transactionId);
+        List<UserDTO> GetAllUsers();  
 
         [OperationContract]
-        string GenerarReportePrestamosActivos(DateTime? startDate, DateTime? endDate);
+        string ActivateUser(Guid userId); 
 
         [OperationContract]
-        string GenerarReporteHistorialUsuarios(int userId);
-
+        string SuspendUser(Guid userId);
         [OperationContract]
-        string RegistrarUsuario(string name, string email, string userType);
-
+        string EditUser(Guid userId, string name, string email, string status, string userType);
         [OperationContract]
-        string SuspenderUsuario(int userId);
+        string DeleteUser(Guid userId);
+        [OperationContract]
+        List<TransactionDTO> GetTransactions();
+
     }
 }

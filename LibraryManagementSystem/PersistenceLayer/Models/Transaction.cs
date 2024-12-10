@@ -2,15 +2,14 @@
 {
     public class Transaction
     {
-        public int id { get; set; }
-        public int userid { get; set; }
+        public Guid id { get; set; }
+        public Guid userid { get; set; }
         public string bookid { get; set; }
-        public DateTime? borrowdate { get; set; }  // Asegúrate de que sea nullable
-        public DateTime? returndate { get; set; }  // Asegúrate de que sea nullable
+        public DateTime? borrowdate { get; set; }  
+        public DateTime? returndate { get; set; }  
         public string status { get; set; }
 
-        public decimal? fine { get; set; }  // Propiedad nullable para la multa
-
+        public decimal? fine { get; set; }  
         public User User { get; set; }
         public Book Book { get; set; }
     }

@@ -12,23 +12,27 @@
 <form method="post" asp-action="Create">
     <div class="form-group">
         <label for="Title">Título</label>
-        <input type="text" id="Title" name="Title" class="form-control" value="@Model?.Title" required />
+        <input type="text" id="Title" name="Title" class="form-control" value="@Model.Title" required />
     </div>
     <div class="form-group">
         <label for="Author">Autor</label>
-        <input type="text" id="Author" name="Author" class="form-control" value="@Model?.Author" required />
+        <input type="text" id="Author" name="Author" class="form-control" value="@Model.Author" required />
     </div>
     <div class="form-group">
         <label for="Category">Categoría</label>
-        <input type="text" id="Category" name="Category" class="form-control" value="@Model?.Category" required />
+        <input type="text" id="Category" name="Category" class="form-control" value="@Model.Category" required />
     </div>
     <div class="form-group">
         <label for="Location">Ubicación</label>
-        <input type="text" id="Location" name="Location" class="form-control" value="@Model?.Location" required />
+        <input type="text" id="Location" name="Location" class="form-control" value="@Model.Location" required />
     </div>
     <div class="form-group">
         <label for="Availability">Disponibilidad</label>
-        <input type="checkbox" id="Availability" name="Availability" class="form-check-input" @(Model.Availability ? "checked" : "") />
+        <select id="Availability" name="Availability" class="form-control" required>
+            <option value="Disponible" @(Model.Availability == "Disponible" ? "selected" : "")>Disponible</option>
+            <option value="No disponible" @(Model.Availability == "No disponible" ? "selected" : "")>No disponible</option>
+        </select>
     </div>
+    <p></p>
     <button type="submit" class="btn btn-success">Guardar Libro</button>
 </form>
