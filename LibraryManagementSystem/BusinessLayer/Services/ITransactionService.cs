@@ -1,8 +1,13 @@
-﻿namespace BusinessLayer.Services
+﻿using Common.DTOs;
+
+namespace BusinessLayer.Services
 {
     public interface ITransactionService
     {
-        string RegisterLoan(int userId, string bookId, DateTime borrowDate, DateTime? returnDate);
-        string RegisterReturn(int transactionId);
+        string RegisterLoan(Guid userId, string bookId, string Status, DateTime borrowDate, DateTime? returnDate, decimal? fine);
+        string RegisterReturn(Guid transactionId);
+        List<TransactionDTO> GenerateActiveLoansReport(DateTime? startDate, DateTime? endDate);
+        List<TransactionDTO> GenerateUserHistoryReport(Guid userId);
+        List<TransactionDTO> GetUserTransactions(Guid userId);
     }
 }

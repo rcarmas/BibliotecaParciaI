@@ -5,9 +5,11 @@ namespace BusinessLayer.Services
     public interface IUserService
     {
         List<UserDTO> GetAllUsers();
+        UserDTO GetUserById(Guid id);
         void AddUser(UserDTO userDto);
-        void SuspendUser(int userId);
-        string UpdateUser(int id, UserDTO user); // Cambiado a 'void'
-        List<TransactionDTO> GetLoanHistory(int userId);
+        void SuspendUser(Guid userId);  // Cambié a string
+        string UpdateUser(Guid id, UserDTO user);  // Cambié a string
+        List<TransactionDTO> GetLoanHistory(Guid userId);  // Cambié a string
     }
 }
+

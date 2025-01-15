@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand" href="#">CAJ SISTEMA BIBLIOTECARIO</a>
+            <span class="navbar-text text-light ms-2">
+                Bienvenido!
+            </span>
+        </div>
+        <a href="@Url.Action("Index", "Login")" class="btn btn-danger">Cerrar Sesión</a>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <h2 class="mb-4 text-center">Dashboard - Administrador</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Gestión de Libros -->
+        <div class="col">
+            <div class="card text-center h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Gestión de Libros</h5>
+                    <p class="card-text">
+                        Administra los libros disponibles en la biblioteca.
+                    </p>
+
+                    <i class="fas fa-book fa-4x text-primary mb-3"></i><br>
+                    <a href="@Url.Action("Index", "Book")" class="btn btn-primary">Ir a Libros</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Gestión de Usuarios</h5>
+                    <p class="card-text">
+                        Administra la información de los usuarios.
+                    </p>
+                    <i class="fas fa-users fa-4x text-success mb-3"></i><br>
+                    <a href="@Url.Action("ManageUsers", "Admin")" class="btn btn-success">Ir a Usuarios</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Registro de Préstamos</h5>
+                    <p class="card-text">
+                        Registra y gestiona los préstamos de libros.
+                    </p>
+                    <i class="fas fa-exchange-alt fa-4x text-warning mb-3"></i><br>
+                    <a href="@Url.Action("ManageTransactions", "Admin")" class="btn btn-warning">Ir a Préstamos</a>
+                </div>
+            </div>
+        </div>
+         <div class="col">
+            <div class="card text-center h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Generar Reportes</h5>
+                    <p class="card-text">
+                        Crea reportes detallados de la biblioteca.
+                    </p>
+                    <i class="fas fa-chart-line fa-4x text-info mb-3"></i><br>
+                    <a href="@Url.Action("Reports", "Admin")" class="btn btn-info">Ir a Reportes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

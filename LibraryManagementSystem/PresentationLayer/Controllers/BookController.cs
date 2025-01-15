@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BusinessLayer.Services;
 using Common.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LibraryManagementSystem.Controllers
 {
+    [Authorize]
     [Route("Book")]
     public class BookController : Controller
     {
@@ -16,10 +18,21 @@ namespace LibraryManagementSystem.Controllers
 
         // Acción para listar todos los libros
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(string searchTerm)
         {
+        
             var books = _bookService.GetAllBooks();
-            return View(books);  // Devuelve la vista Index.cshtml con la lista de libros
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                books = books.Where(b =>
+                    b.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                    b.Category.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)
+                ).ToList();
+            }
+
+            ViewData["SearchTerm"] = searchTerm; 
+            return View(books);
         }
 
         // Acción para mostrar el formulario de creación de libro
@@ -39,17 +52,17 @@ namespace LibraryManagementSystem.Controllers
                 // Generar un UUID para el id
                 var uuid = Guid.NewGuid().ToString();
                 bookDto.Id = uuid;
-
+ 
                 var result = _bookService.CreateBook(bookDto);
                 if (!result)
                 {
                     return BadRequest("No se pudo crear el libro.");
                 }
 
-                return RedirectToAction("Index");  // Redirige a la lista de libros después de crear
+                return RedirectToAction("Index");  
             }
 
-            return View(bookDto);  // Si hay errores, vuelve a la vista con el libro ingresado
+            return View(bookDto);  
         }
 
         // Acción para mostrar el formulario de edición de libro
@@ -62,9 +75,8 @@ namespace LibraryManagementSystem.Controllers
                 return NotFound("Libro no encontrado.");
             }
 
-            return View(book);  // Devuelve la vista Edit.cshtml con los detalles del libro
+            return View(book); 
         }
-
         // Acción para actualizar un libro (POST)
         [HttpPost("Edit/{id}")]
         public IActionResult Edit(string id, BookDTO bookDto)
@@ -77,7 +89,7 @@ namespace LibraryManagementSystem.Controllers
                     return NotFound("Libro no encontrado.");
                 }
 
-                return RedirectToAction("Index");  // Redirige a la lista de libros después de editar
+                return RedirectToAction("Index");  
             }
 
             return View(bookDto);  // Si hay errores, vuelve a la vista con el libro modificado
@@ -93,7 +105,9 @@ namespace LibraryManagementSystem.Controllers
                 return NotFound("Libro no encontrado.");
             }
 
-            return RedirectToAction(nameof(Index));  // Redirige a la lista de libros después de eliminar
+            return RedirectToAction(nameof(Index));
         }
+
+     
     }
 }
